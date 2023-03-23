@@ -73,9 +73,9 @@ if _name_ == "_main_":
     tasks = []  
       
    
-    header_frame = tk.Frame(guiWindow, bg = "#F0F0F8")  
-    functions_frame = tk.Frame(guiWindow, bg = "#F0F0F8")  
-    listbox_frame = tk.Frame(guiWindow, bg = "#F0F0F8")  
+    header_frame = tk.Frame(guiWindow, bg = "#FAEBD7")  
+    functions_frame = tk.Frame(guiWindow, bg = "#FAEBD7")  
+    listbox_frame = tk.Frame(guiWindow, bg = "#FAEBD7")  
   
      
     header_frame.pack(fill = "both")  
@@ -98,7 +98,7 @@ if _name_ == "_main_":
         functions_frame,  
         text = "Enter the Task:",  
         font = ("Consolas", "11", "bold"),  
-        background = "#F0F0F8",  
+        background = "#FAEBD7",  
         foreground = "#000000"  
     )  
     
